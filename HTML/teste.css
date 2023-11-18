@@ -1,0 +1,22 @@
+.all{
+    padding: 10px 20px;
+    margin: 1px;
+}
+
+.paragrafo{
+    font-size: 12px;
+    color: azure;
+    background-color: black;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-weight:700;
+    font-size: 16px;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid yellow;
+}
+.contorno{
+    color: chartreuse;
+}
