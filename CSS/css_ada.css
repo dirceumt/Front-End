@@ -1,0 +1,15 @@
+* {
+  /*zera borda */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  color: darkblue;
+  font-size: 12px;
+}
+nav-list {
+  color: blue;
+  font-size: 12px;
+}
