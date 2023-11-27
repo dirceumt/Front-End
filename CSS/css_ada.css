@@ -1,15 +1,19 @@
 * {
-  /*zera borda */
+  /*zera borda e margens */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .navbar {
-  color: darkblue;
+  color: rgb(0, 139, 35);
   font-size: 12px;
 }
 nav-list {
-  color: blue;
+  color: rgb(255, 174, 0);
   font-size: 12px;
+}
+nav-item {
+  color: rgb(226, 43, 134);
+  font-size: 12;
 }
