@@ -1,0 +1,11 @@
+.bgcolor {
+  background-color: rgb(100, 102, 104);
+}
+.cabeca {
+  font-size: 16px;
+}
+.b1 {
+  background-color: rgb(38, 39, 39);
+  color: darkgreen;
+  border-color: rgb(38, 39, 39);
+}
