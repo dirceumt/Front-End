@@ -15,15 +15,20 @@
     <main>
         <h1 class="cabeca "> DEFINICAO DE DOM</h1>
         <p class="p1"><strong>Lorem ipsum</strong>, dolor sit amet consectetur adipisicing elit. Repellendus, sunt quae? Doloribus magnam numquam nemo illum explicabo? Earum mollitia odit laboriosam nisi debitis! Praesentium, sint quisquam! Vel quas et quasi?</p>
-        <section>
+        <p>
+          paragrafo dois para teste do select do DOM.
+        </p>
+        <div>
             <button class="b1">Click here</button>
-                                
-        </section>
+                               
+        </div>
     </main>
     <footer>    
     </footer>
     <script>
-     
+     var p1 = window.document.getElementsByTagName('p')[0]
+     window.document.write(p1.innerText)         
+     p1.style.background = 'blue'
     </script>
   </body>
 </html>
