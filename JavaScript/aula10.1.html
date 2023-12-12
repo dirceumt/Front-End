@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="aula10.1.css"
+  </head>
+  <body id="bcg">
+    <header id="cab">CALCULADORA</header>
+    <body>
+      <h1 id="t1">SOMA</h1>
+      <input type="number" id="n1" />
+      <br />
+      <input type="number" id="n2" />
+      <br />
+      <input type="button" value="somar" onclick="somar()" />
+      <div id="res">RESULTADO</div>
+      <script>
+        function somar() {
+          var num1 = window.document.getElementById("n1");
+          var num2 = window.document.getElementById("n2");
+          var resu = window.document.getElementById("res");
+          var n11 = Number(num1.value);
+          var n22 = Number(num2.value);
+          var soma = n11 + n22;
+          res.innerHTML = `O RESULTADO DA SUA SOMA E: ${soma}`;
+        }
+      </script>
+    </body>
+  </body>
+</html>
