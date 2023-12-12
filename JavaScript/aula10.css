@@ -1,7 +1,17 @@
-.bcg {
-  background-color: rgb(141, 138, 138);
+#bcg {
+  background-color: rgb(32, 32, 32);
 }
-.d1 {
+#d1 {
   color: rgb(5, 5, 5);
   font-size: 20px;
+}
+#d2 {
+  background-color: rgb(28, 236, 39);
+  color: brown;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
 }
