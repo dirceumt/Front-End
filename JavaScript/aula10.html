@@ -11,15 +11,39 @@
       <h1>AULA SOBRE EVENTOS DOM</h1>
     </header>
     <main>
-      <div class="d1">
-        <p class="p1">
+      <div id="d1">
+        <p id="p1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam alias
           commodi aliquid quasi accusantium qui placeat reprehenderit
           repellendus! Eligendi deserunt suscipit nisi ducimus quas nulla
-          accusantium. Iusto recusandae in magnam!
+          accusantium. Iusto recusandae in magnam! este programa é um teste de
+          javascript em um teclado novo para teste.
         </p>
       </div>
+      <div id="d2">CLIQUE AQUI!!!</div>
     </main>
     <footer></footer>
+
+    <script>
+      var a1 = window.document.getElementById("d2");
+      a1.addEventListener("click", cli);
+      a1.addEventListener("mouseenter", ent);
+      a1.addEventListener("mouseout", sai);
+      function cli() {
+        a1.innerHTML = "CLICOU!";
+        a1.style.backgroundColor = "blue";
+      }
+      function ent() {
+        a1.innerHTML = "ENTROU!";
+        a1.style.backgroundColor = "red";
+        a1.style.color = "black";
+      }
+      function sai() {
+        a1.innerHTML = "TCHAU!";
+        a1.style.backgroundColor = "yellow";
+        a1.style.color = "green";
+        a1.style.fontWeight = "bold";
+      }
+    </script>
   </body>
 </html>
