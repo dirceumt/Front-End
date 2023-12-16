@@ -1,0 +1,29 @@
+#bcg {
+  background-color: rgb(55, 56, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#hdr {
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#box {
+  margin-top: 20px;
+  display: flex;
+  background-color: rgb(109, 155, 196);
+  width: 300px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px;
+}
+#div1 {
+}
+#foo {
+  color: rgb(247, 247, 247);
+  text-align: center;
+}
