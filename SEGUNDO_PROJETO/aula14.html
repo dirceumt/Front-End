@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="aula14.css" />
+    <title>VERIFICADOR DE IDADE</title>
+  </head>
+  <body id="bcg" onload="box()">
+    <!--onload chama a funcao box la do js-->
+    <header id="hdr">
+      <h1 id="ti1">VERIFICADOR DE IDADE</h1>
+    </header>
+    <main>
+      <dialog open id="dial">
+        <!--dialog (janela modal) abre uma caixa de dialogo, open diz que ta aberta-->
+        <form method="dialog">
+          <!--form abre um formulário com o metodo dialog quer dizer que e um formulario de dialogo e nao precisa armazenar os dados no servidor -->
+          <section id="flexbox">
+            <div id="d1"><img src="primeira.png" id="imgm" /></div>
+            <label for="anoNascimento">EM QUE ANO VOCÊ NASCEU? </label>
+            <input type="text" id="anoNascimento" />
+            <button onclick="box()" class="b1">VERIFICAR</button>
+            <button type="button" onclick="fecharModal()" class="b1">
+              CANCELAR
+            </button>
+            <div id="boxx"></div>
+          </section>
+        </form>
+      </dialog>
+    </main>
+    <footer id="foo">by dirceumt</footer>
+    <script src="aula14.js" defer></script>
+  </body>
+</html>
