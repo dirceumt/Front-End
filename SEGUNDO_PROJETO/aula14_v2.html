@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="aula14_v2.css" />
+    <title>CONTADOR SEXO E IDADE</title>
+  </head>
+  <body id="bcg">
+    <header><h1>CONTADOR SEXO E IDADE</h1></header>
+    <main>
+      <section id="sec">
+        <div id="d1">
+          <p id="p1">
+            INFORME ANO DO NASCIMENTO:
+            <input type="number" name="numano" class="ano" />
+          </p>
+
+          <p id="p2">
+            SEXO: <input type="radio" name="radsex" id="masc" checked />
+            <label for="masc"> MASCULINO </label>
+            <input type="radio" name="radsex" id="fem" />
+            <label for="fem"> FEMININO </label>
+          </p>
+          <p id="p3">
+            <input type="button" value=" VERIFICAR" onclick="verify()" />
+          </p>
+        </div>
+
+        <div id="d2">DIGITE AS INFORMAÇÕES A CIMA</div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="aula14_v2.js" defer></script>
+  </body>
+</html>
