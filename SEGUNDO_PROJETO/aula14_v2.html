@@ -2,35 +2,40 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />]
+    
     <link rel="stylesheet" href="aula14_v2.css" />
     <title>CONTADOR SEXO E IDADE</title>
   </head>
   <body id="bcg">
-    <header><h1>CONTADOR SEXO E IDADE</h1></header>
+    <header><h1>CONTADOR IDADE</h1></header>
     <main>
+
       <section id="sec">
+        <div id="d0"> INFORME SUA DATA DE NASCIMENTO ABAIXO: </div>
         <div id="d1">
           <p id="p1">
-            INFORME ANO DO NASCIMENTO:
-            <input type="number" name="numano" class="ano" />
+            DIA:
+            <input type="number" id="dia" />
           </p>
-
-          <p id="p2">
-            SEXO: <input type="radio" name="radsex" id="masc" checked />
-            <label for="masc"> MASCULINO </label>
-            <input type="radio" name="radsex" id="fem" />
-            <label for="fem"> FEMININO </label>
+          <p id="p2"> MÊS: 
+          </p><input type = "number" id="mes">
+                    </p>
+          <p id="p3"> ANO: <input type="number" id="ano">
+          <p id="p4">
+            <input type="button" value=" VERIFICAR" onclick="verify()" id="b1"/>
           </p>
-          <p id="p3">
-            <input type="button" value=" VERIFICAR" onclick="verify()" />
-          </p>
+          <p id="p5"><input type ="button" value="LIMPAR" onclick="clean()" id="b2"></p>
         </div>
-
-        <div id="d2">DIGITE AS INFORMAÇÕES A CIMA</div>
+        <div id="d2"></div>
+        <div id="d3">
+          <span id="closepop" onclick="closepop()">&times;</span>
+          <img src="erro.png" id="imgm">
+        </div>
+        
       </section>
     </main>
-    <footer></footer>
+    <footer id="foot">by dirceumt <a href="https://github.com/dirceumt"> <img src="github.png" alt="github logo"></a> </footer>
     <script src="aula14_v2.js" defer></script>
   </body>
 </html>
