@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item {
+}
+.box1 {
+  flex-grow: 1;
+}
+.box2 {
+  flex-grow: 8;
+}
+.box3 {
+  flex-grow: 1;
+}
