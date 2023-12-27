@@ -1,4 +1,4 @@
-var wek = "5";
+var wek = 5;
 switch (wek) {
   case 0:
     console.log("Domingo");

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="aula11.css" />
     <title>Document</title>
-  </head>
+    </head>
   <body id="bcg">
     <header id="hd1">
         <h1>AULA 11 JAVASCRIPT</header></h1>
@@ -13,14 +13,29 @@
         <h2>SEQUENCIAS JS</h2>
         <P id="pg1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis impedit quas unde reprehenderit architecto fuga rerum itaque in id quaerat perspiciatis eaque aliquid consequatur, dolore nostrum ad similique aperiam veritatis.</P>
         <div id="dv1">
+            <p id="pg2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga perspiciatis, laboriosam numquam quaerat reiciendis cupiditate explicabo dolorum alias atque suscipit unde nesciunt rerum ad odio sunt, sapiente illo ducimus nisi.</p>
+        </div>
+        <h2>SISTEMA DE CALCULO DE MULTAS</h2>
+        <input type="number" id="vl"> km/h
+        <input type="button" value="VERIFICAR" onclick="calcular()">
+        <div id="res">
 
         </div>
     </main>
     <footer></footer>
-
     <script>
-        
-          
+        function calcular() {
+            var vel = window.document.querySelector("input#vl");
+            var resu = window.document.querySelector("input#res");
+            var velocidade = Number(vel.value);
+            res.innerHTML = `SUA VELOCIDADE É DE: ${velocidade}`;
+            if (velocidade >= 100) {
+              alert("VOCÊ FOI MULTADO! ");
+            } else {
+              alert("VOCÊ ESTA DENTRO DA VELOCIDADE PERMITIDA!");
+            }
+          }       
     </script>
+
   </body>
 </html>

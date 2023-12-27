@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="aula16.css" />
+    <title>TABUADA EM JS</title>
+  </head>
+  <body id="bcg">
+    <header></header>
+
+    <main id="mai">
+      <section id="sec">
+        <div id="d1">TABUADA</div>
+        <div id="d2">
+          QUAL NUMERO DESEJA CALCULAR? <input type="number" id="num" />
+        </div>
+        <div id="d3">
+          QUAL OPERAÇÃO VOCÊ DESEJA REALIZAR?
+          <p class="prg">
+            <input type="radio" id="sum" name="op" value="+" checked />
+            <label for="sum">SOMA ( + );</label>
+          </p>
+          <p class="prg">
+            <input type="radio" id="sub" name="op" value="-" />
+            <label for="sub">SUBTRAÇÃO ( - ); </label>
+          </p>
+          <p class="prg">
+            <input type="radio" id="mult" name="op" value="*" />
+            <label for="mult">MULTIPLICAÇÃO ( X );</label>
+          </p>
+          <p class="prg">
+            <input type="radio" id="div" name="op" value="/" /><label for="div"
+              >DIVISÃO ( / ).</label
+            >
+          </p>
+        </div>
+        <div><input type="button" id="btn" onclick="calc()" /></div>
+      </section>
+    </main>
+    <footer id="foo">
+      by dirceumt
+      <a href="https://github.com/dirceumt"><img src="github.png" /></a>
+    </footer>
+    <script src="aula16.js" defer></script>
+  </body>
+</html>
