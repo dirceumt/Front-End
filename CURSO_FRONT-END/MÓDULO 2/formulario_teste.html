@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="arquivo.css" />
+    <style>
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #8b8989;
+      }
+    </style>
+    <title>FALE CONOSCO</title>
+  </head>
+  <body style="background-color: rgb(56, 55, 55)">
+    <header></header>
+
+    <main>
+      <article>
+        <h1>CONTATO</h1>
+        <p>Preencha os dados abaixo:</p>
+        <form method="post">
+          <label for="nome">Nome</label><br />
+          <div><input type="text" name="nome" id="nome" /></div>
+          <br />
+          <label for="email"> e-mail </label>
+          <div><input type="text" name="email" id="email" /></div>
+
+          <div>
+            <label for="mensagem">Mensagem</label><br /><textarea
+              name="mensagem"
+              id="mensagem"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div>
+            <input type="submit" name="enviar" id="enviar" value="ENVIAR" />
+          </div>
+          <p>
+            <a href="M1_projeto.html"><input type="button" value="VOLTAR" /></a>
+          </p>
+        </form>
+      </article>
+    </main>
+    <footer></footer>
+    <script src="arquivo.js" defer></script>
+  </body>
+</html>
