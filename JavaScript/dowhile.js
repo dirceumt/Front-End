@@ -6,5 +6,5 @@ while (number < 100) {
 let num = 0;
 do {
   num++;
-  console.log(num);
 } while (num < 100);
+console.log(num);
