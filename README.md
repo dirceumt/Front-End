@@ -1,2 +1,2 @@
 # frontend
-Front-end in react containing html, css and js files.
+Front-end containing html, css and js files.
