@@ -1,9 +1,9 @@
 #bcg {
   background: linear-gradient(
     45deg,
-    rgb(86, 86, 224) 0%,
-    rgb(95, 228, 95) 33%,
-    rgb(231, 231, 17) 100%
+    rgb(141, 141, 221) 0%,
+    rgb(130, 201, 130) 33%,
+    rgb(124, 124, 69) 100%
   );
 }
 
@@ -16,9 +16,9 @@
 .button {
   width: 85px;
   height: 85px;
-  background-color: rgb(46, 47, 48);
+  background-color: rgb(52, 92, 133);
   border-radius: 10px;
-  color: rgb(247, 247, 247);
+  color: rgb(102, 45, 45);
   font-size: 25px;
   font-weight: bold;
   margin: 5px;
